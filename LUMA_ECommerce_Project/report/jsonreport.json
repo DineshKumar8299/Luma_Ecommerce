@@ -1,0 +1,532 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-02T20:06:42.596Z",
+        "line": 3,
+        "name": "TC_01 Validation of Account Creation",
+        "description": "",
+        "id": "validation-of-luma-application;tc-01-validation-of-account-creation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16610713700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user lanuch the Appliction",
+            "match": {
+              "location": "Lumastepdefinition.user_lanuch_the_Appliction()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3408491900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click Create Account option",
+            "match": {
+              "location": "Lumastepdefinition.user_click_Create_Account_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2761138600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter Personal and Signin informtion",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_Personal_and_Signin_informtion()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4850237100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click Create an account button",
+            "match": {
+              "location": "Lumastepdefinition.user_click_Create_an_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5220200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verify the Account creation",
+            "match": {
+              "location": "Lumastepdefinition.user_verify_the_Account_creation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:07:10.469Z",
+        "line": 10,
+        "name": "TC_02 Validating Email Subscription",
+        "description": "",
+        "id": "validation-of-luma-application;tc-02-validating-email-subscription",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1056569900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enter email Subscription",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_email_Subscription()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6490385800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click subscribe button",
+            "match": {
+              "location": "Lumastepdefinition.user_click_subscribe_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1294300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user getting email subscription messge",
+            "match": {
+              "location": "Lumastepdefinition.user_getting_email_subscription_messge()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:07:18.026Z",
+        "line": 15,
+        "name": "TC_03 Validate login function",
+        "description": "",
+        "id": "validation-of-luma-application;tc-03-validate-login-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6238422000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user click signin option",
+            "match": {
+              "location": "Lumastepdefinition.user_click_signin_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1530100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter login Page",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_login_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1238200700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enter valid credentials",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6582136000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click login button",
+            "match": {
+              "location": "Lumastepdefinition.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2486000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user verify the Page is  Successfully login.",
+            "match": {
+              "location": "Lumastepdefinition.user_verify_the_Page_is_Successfully_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:07:32.098Z",
+        "line": 22,
+        "name": "TC_04 Banner Image funtion",
+        "description": "",
+        "id": "validation-of-luma-application;tc-04-banner-image-funtion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 263088900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User capture the image",
+            "match": {
+              "location": "Lumastepdefinition.user_capture_the_image()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113422600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User getting Image properties",
+            "match": {
+              "location": "Lumastepdefinition.user_getting_Image_properties()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1435900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User verifying the image capture successfully",
+            "match": {
+              "location": "Lumastepdefinition.user_verifying_the_image_capture_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:07:32.491Z",
+        "line": 27,
+        "name": "TC_05 Search bar function",
+        "description": "",
+        "id": "validation-of-luma-application;tc-05-search-bar-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7571729700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user searching products in searchbar",
+            "match": {
+              "location": "Lumastepdefinition.user_searching_products_in_searchbar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 719652400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks the product",
+            "match": {
+              "location": "Lumastepdefinition.user_clicks_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1034200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user verify productt add to cart",
+            "match": {
+              "location": "Lumastepdefinition.user_verify_productt_add_to_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:07:40.788Z",
+        "line": 32,
+        "name": "TC_06 Validating the Appbar",
+        "description": "",
+        "id": "validation-of-luma-application;tc-06-validating-the-appbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6444145600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user click the Womenbar",
+            "match": {
+              "location": "Lumastepdefinition.user_click_the_Womenbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31003992000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user search the womenproduct",
+            "match": {
+              "location": "Lumastepdefinition.user_search_the_womenproduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1037700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user verify the page is navigated",
+            "match": {
+              "location": "Lumastepdefinition.user_verify_the_page_is_navigated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:08:18.242Z",
+        "line": 37,
+        "name": "TC_07 Validating the Addtocart",
+        "description": "",
+        "id": "validation-of-luma-application;tc-07-validating-the-addtocart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2319416300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks size of the product",
+            "match": {
+              "location": "Lumastepdefinition.user_clicks_size_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 418515600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks colour of the product",
+            "match": {
+              "location": "Lumastepdefinition.user_clicks_colour_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5400638200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user clicks addtocat button",
+            "match": {
+              "location": "Lumastepdefinition.user_clicks_addtocat_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1751200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user verify the product is added into the cart",
+            "match": {
+              "location": "Lumastepdefinition.user_verify_the_product_is_added_into_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:08:26.394Z",
+        "line": 43,
+        "name": "TC_08 Validating cart function",
+        "description": "",
+        "id": "validation-of-luma-application;tc-08-validating-cart-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2263065900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user click the addtocart",
+            "match": {
+              "location": "Lumastepdefinition.user_click_the_addtocart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18838856300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user click the procced button",
+            "match": {
+              "location": "Lumastepdefinition.user_click_the_procced_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1721200,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user navigate purchase page",
+            "match": {
+              "location": "Lumastepdefinition.user_navigate_purchase_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-02T20:08:47.505Z",
+        "line": 48,
+        "name": "TC_09 Validating the purchase",
+        "description": "",
+        "id": "validation-of-luma-application;tc-09-validating-the-purchase",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4195285400,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enter Address",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_Address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5191186400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user enter rate of product",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_rate_of_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6158627100,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user enter next button",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user enter payment Portion",
+            "match": {
+              "location": "Lumastepdefinition.user_enter_payment_Portion()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 208292500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user place the order",
+            "match": {
+              "location": "Lumastepdefinition.user_place_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17215850200,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify the order placed and capture Order ID",
+            "match": {
+              "location": "Lumastepdefinition.verify_the_order_placed_and_capture_Order_ID()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Luma Application",
+    "description": "",
+    "id": "validation-of-luma-application",
+    "keyword": "Feature",
+    "uri": "file:Features/Luma.feature",
+    "tags": []
+  }
+]
